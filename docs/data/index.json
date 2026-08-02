@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T11:13:21+09:00",
-  "race_count": 1,
+  "generated_at": "2026-08-02T19:29:25+09:00",
+  "race_count": 2,
   "days": [
     {
       "date": "2026-08-02",
@@ -35,6 +35,34 @@
               "main_scenario_prob": 71,
               "warning_count": 11,
               "odds_available": false
+            },
+            {
+              "date": "2026-08-02",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 6,
+              "label": "6R",
+              "path": "2026-08-02/chukyo/06R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 74,
+              "distance": 1400,
+              "field_size": 9,
+              "forecast_id": "forecast-2026080207020406-eaf5baedcb8a2e1719c1",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 52.6,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 79,
+              "odds_available": true,
+              "overview": "芝1400m、9頭、馬場状態はFIRM、天候はデータ不足です。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は79%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京6R レース予報",
+              "top_place_horse": "3番トライアンフパス",
+              "top_place_rate": 76,
+              "updated_at": "2026-08-02T14:48+09:00",
+              "warning_count": 8
             }
           ]
         }

@@ -188,6 +188,26 @@
   .side { text-align: right; font-family: var(--mono); font-size: .74rem; color: var(--muted-foreground); line-height: 1.5; }
   .flag { display: inline-block; margin-left: 6px; color: var(--ochre); }
 
+  /* 過去の開催: 本文に埋め込まなくなった日付への導線 */
+  .archive[hidden] { display: none; }
+  .archive { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .archive h2 { margin: 0 0 12px; font-size: .95rem; letter-spacing: .06em; }
+  .archive-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .archive-day {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 5px 10px;
+    font-family: var(--mono);
+    font-size: .78rem;
+    text-decoration: none;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .archive-day:hover { border-color: var(--foreground); }
+  .archive-day span { color: var(--muted-foreground); font-size: .72rem; }
+
   .empty {
     padding: 40px 20px;
     text-align: center;
@@ -242,10 +262,15 @@
   <div id="list"></div>
   <noscript><p class="empty">一覧の絞り込みにはJavaScriptが必要です。各レースのページは <code>年月日/競馬場/レース/</code> から直接開けます。</p></noscript>
 
+  <section class="archive" id="archive" hidden>
+    <h2>過去の開催</h2>
+    <div class="archive-list" id="archive-list"></div>
+  </section>
+
   <p class="notice">まぎれ指数は結果分布の分散であり、期待値ではない。オッズ未取得のレースには <span class="flag">◆</span> を付す。</p>
 </main>
 
-<script type="application/json" id="site-data">{"base": "../", "scope": {"kind": "day", "date": "2026-08-02"}, "generated_at": "2026-08-02T11:13:21+09:00", "race_count": 1, "days": [{"date": "2026-08-02", "courses": [{"slug": "chukyo", "name": "中京", "races": [{"date": "2026-08-02", "course": "中京", "course_slug": "chukyo", "race_no": 4, "label": "4R", "path": "2026-08-02/chukyo/04R/", "title": "中京4R レース予報", "stage": "FINAL", "updated_at": "2026-08-02T10:55+09:00", "forecast_id": "forecast-2026080207020404-700784f3448740f0b5bd", "overview": "ダート1200m、16頭、馬場状態はFIRM、天候はデータ不足です。", "surface": "ダート", "distance": 1200, "field_size": 16, "magire_score": 64.2, "magire_level": "HIGH", "confidence_level": "LOW", "confidence_score": 14, "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。", "top_place_horse": "5番モズタイシソウシ", "top_place_rate": 56, "main_scenario": "標準的な力関係", "main_scenario_prob": 71, "warning_count": 11, "odds_available": false}]}]}]}</script>
+<script type="application/json" id="site-data">{"base": "../", "scope": {"kind": "day", "date": "2026-08-02"}, "generated_at": "2026-08-02T14:48+09:00", "race_count": 2, "days": [{"date": "2026-08-02", "courses": [{"slug": "chukyo", "name": "中京", "races": [{"date": "2026-08-02", "course": "中京", "course_slug": "chukyo", "race_no": 4, "label": "4R", "path": "2026-08-02/chukyo/04R/", "title": "中京4R レース予報", "stage": "FINAL", "updated_at": "2026-08-02T10:55+09:00", "forecast_id": "forecast-2026080207020404-700784f3448740f0b5bd", "overview": "ダート1200m、16頭、馬場状態はFIRM、天候はデータ不足です。", "surface": "ダート", "distance": 1200, "field_size": 16, "magire_score": 64.2, "magire_level": "HIGH", "confidence_level": "LOW", "confidence_score": 14, "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。", "top_place_horse": "5番モズタイシソウシ", "top_place_rate": 56, "main_scenario": "標準的な力関係", "main_scenario_prob": 71, "warning_count": 11, "odds_available": false}, {"date": "2026-08-02", "course": "中京", "course_slug": "chukyo", "race_no": 6, "label": "6R", "path": "2026-08-02/chukyo/06R/", "confidence_level": "MEDIUM", "confidence_score": 74, "distance": 1400, "field_size": 9, "forecast_id": "forecast-2026080207020406-eaf5baedcb8a2e1719c1", "going": "FIRM", "magire_level": "MEDIUM", "magire_score": 52.6, "main_scenario": "標準的な力関係", "main_scenario_prob": 79, "odds_available": true, "overview": "芝1400m、9頭、馬場状態はFIRM、天候はデータ不足です。", "pace": "推定では平均ペースとなる見込みが中心で、その確率は79%です。", "stage": "FINAL", "surface": "芝", "title": "中京6R レース予報", "top_place_horse": "3番トライアンフパス", "top_place_rate": 76, "updated_at": "2026-08-02T14:48+09:00", "warning_count": 8}]}]}], "archive": []}</script>
 <script>
 (() => {
   const data = JSON.parse(document.getElementById('site-data').textContent);
@@ -274,8 +299,12 @@
   }
   document.title = titleEl.textContent;
 
-  document.getElementById('stat').textContent =
-    `${data.race_count}レース収録・最終ビルド ${(data.generated_at || '').replace('T', ' ').slice(0, 16)}`;
+  // 全体トップはビルド時刻、日別・競馬場別は収録済み予報の最終更新時刻を出す。
+  // 後者を固定値にしてあるので、1レース公開しても過去ページのバイト列は変わらない。
+  const stamp = (data.generated_at || '').replace('T', ' ').slice(0, 16);
+  document.getElementById('stat').textContent = stamp
+    ? `${data.race_count}レース収録・${scope.kind === 'site' ? '最終ビルド' : '最終更新'} ${stamp}`
+    : `${data.race_count}レース収録`;
 
   const matches = (r) => {
     if (state.level !== 'ALL' && r.magire_level !== state.level) return false;
@@ -317,12 +346,10 @@
   }).join('');
 
   const render = () => {
-    let shown = 0;
     const html = data.days.map((day) => {
       const meets = day.courses.map((course) => {
         const races = course.races.filter(matches);
         if (!races.length) return '';
-        shown += races.length;
         return `
           <section class="meet">
             <div class="meet-head">
@@ -348,9 +375,18 @@
     listEl.innerHTML = html || `<p class="empty">${
       data.race_count
         ? '条件に合うレースがありません。'
-        : '予報がまだありません。<br><code>python build_index.py add forecast-xxxx.html</code> で配置してから <code>build</code> を実行してください。'
+        : '予報がまだありません。<br><code>python scripts/19_publish_site.py --site &lt;公開ルート&gt; add &lt;予報HTML&gt;</code> で配置してから <code>rebuild</code> を実行してください。'
     }</p>`;
   };
+
+  // 埋め込みは直近の開催日だけ。それより古い日は日付リンクだけ残して辿れるようにする。
+  const archive = data.archive || [];
+  if (archive.length) {
+    document.getElementById('archive-list').innerHTML = archive.map((d) => (
+      `<a class="archive-day" href="${base}${esc(d.date)}/">${esc(d.date)}<span>${d.race_count}R</span></a>`
+    )).join('');
+    document.getElementById('archive').hidden = false;
+  }
 
   searchEl.addEventListener('input', (e) => {
     state.q = e.target.value.trim().toLowerCase();
