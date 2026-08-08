@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T13:35:12+09:00",
-  "race_count": 23,
+  "generated_at": "2026-08-08T14:05:54+09:00",
+  "race_count": 24,
   "days": [
     {
       "date": "2026-08-08",
@@ -523,6 +523,34 @@
               "top_place_horse": "13番サトノフレイ",
               "top_place_rate": 44,
               "updated_at": "2026-08-08T13:35+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 9,
+              "label": "9R",
+              "path": "2026-08-08/sapporo/09R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 53,
+              "distance": 1700,
+              "field_size": 14,
+              "forecast_id": "forecast-2026080801010509-acfed52888d0dd8b9df7",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 61.0,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 73,
+              "odds_available": true,
+              "overview": "ダート1700m、14頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北西6m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は73%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌9R レース予報",
+              "top_place_horse": "4番ビーチイン",
+              "top_place_rate": 59,
+              "updated_at": "2026-08-08T14:05+09:00",
               "warning_count": 6
             }
           ]
