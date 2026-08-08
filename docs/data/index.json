@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T11:25:48+09:00",
-  "race_count": 18,
+  "generated_at": "2026-08-08T11:35:22+09:00",
+  "race_count": 19,
   "days": [
     {
       "date": "2026-08-08",
@@ -119,6 +119,34 @@
               "top_place_horse": "4番インドミタビリティ",
               "top_place_rate": 68,
               "updated_at": "2026-08-08T11:05+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-08/chukyo/05R/",
+              "confidence_level": "HIGH",
+              "confidence_score": 76,
+              "distance": 2000,
+              "field_size": 8,
+              "forecast_id": "forecast-2026080807020505-c7d25142be3f0371441b",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 38.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 80,
+              "odds_available": true,
+              "overview": "芝2000m、8頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は80%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京5R レース予報",
+              "top_place_horse": "3番レイクラシック",
+              "top_place_rate": 97,
+              "updated_at": "2026-08-08T11:35+09:00",
               "warning_count": 6
             }
           ]
