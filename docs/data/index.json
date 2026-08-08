@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T11:16:02+09:00",
-  "race_count": 17,
+  "generated_at": "2026-08-08T11:25:48+09:00",
+  "race_count": 18,
   "days": [
     {
       "date": "2026-08-08",
@@ -237,6 +237,34 @@
               "top_place_horse": "3番スティールヴォーグ",
               "top_place_rate": 58,
               "updated_at": "2026-08-08T10:55+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-08/niigata/05R/",
+              "confidence_level": "LOW",
+              "confidence_score": 50,
+              "distance": 1800,
+              "field_size": 15,
+              "forecast_id": "forecast-2026080804020505-527a688c8eb683746a37",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 51.6,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 71,
+              "odds_available": true,
+              "overview": "ダート1800m、15頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北西3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "新潟5R レース予報",
+              "top_place_horse": "2番キタノドンカルロ",
+              "top_place_rate": 83,
+              "updated_at": "2026-08-08T11:25+09:00",
               "warning_count": 6
             }
           ]
