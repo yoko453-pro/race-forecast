@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T17:45:36+09:00",
-  "race_count": 38,
+  "generated_at": "2026-08-08T18:05:20+09:00",
+  "race_count": 39,
   "days": [
     {
       "date": "2026-08-08",
@@ -601,6 +601,34 @@
               "top_place_horse": "9番ファンシーフリル",
               "top_place_rate": 56,
               "updated_at": "2026-08-08T17:35+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-08/niigata/12R/",
+              "confidence_level": "LOW",
+              "confidence_score": 50,
+              "distance": 2000,
+              "field_size": 16,
+              "forecast_id": "forecast-2026080804020512-e835a62f2b00b4a627f9",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 46.2,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 71,
+              "odds_available": true,
+              "overview": "芝2000m、16頭、馬場状態は良、天候は小雨、降水量は0.1mm/h、風は北2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟12R レース予報",
+              "top_place_horse": "8番ブラッキッシュ",
+              "top_place_rate": 92,
+              "updated_at": "2026-08-08T18:05+09:00",
               "warning_count": 6
             }
           ]
