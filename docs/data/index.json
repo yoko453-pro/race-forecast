@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T18:05:20+09:00",
-  "race_count": 39,
+  "generated_at": "2026-08-08T18:16:03+09:00",
+  "race_count": 40,
   "days": [
     {
       "date": "2026-08-08",
@@ -287,6 +287,34 @@
               "top_place_horse": "6番グローブアマランス",
               "top_place_rate": 65,
               "updated_at": "2026-08-08T17:45+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-08/chukyo/12R/",
+              "confidence_level": "LOW",
+              "confidence_score": 44,
+              "distance": 1400,
+              "field_size": 18,
+              "forecast_id": "forecast-2026080807020512-36ea11092e23dba88785",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 67.9,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 68,
+              "odds_available": true,
+              "overview": "芝1400m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は68%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京12R レース予報",
+              "top_place_horse": "5番ルナフィオーレ",
+              "top_place_rate": 63,
+              "updated_at": "2026-08-08T18:15+09:00",
               "warning_count": 6
             }
           ]
