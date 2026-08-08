@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T17:35:51+09:00",
-  "race_count": 37,
+  "generated_at": "2026-08-08T17:45:36+09:00",
+  "race_count": 38,
   "days": [
     {
       "date": "2026-08-08",
@@ -259,6 +259,34 @@
               "top_place_horse": "1番マユナイト",
               "top_place_rate": 65,
               "updated_at": "2026-08-08T17:15+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 11,
+              "label": "11R",
+              "path": "2026-08-08/chukyo/11R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 66,
+              "distance": 1600,
+              "field_size": 12,
+              "forecast_id": "forecast-2026080807020511-1ef5bb39db3d898026a3",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 52.4,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 76,
+              "odds_available": true,
+              "overview": "芝1600m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は76%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京11R レース予報",
+              "top_place_horse": "6番グローブアマランス",
+              "top_place_rate": 65,
+              "updated_at": "2026-08-08T17:45+09:00",
               "warning_count": 6
             }
           ]
