@@ -1,0 +1,22 @@
+{
+  "confidence_level": "MEDIUM",
+  "confidence_score": 52,
+  "distance": 1500,
+  "field_size": 13,
+  "forecast_id": "forecast-2026080801010502-83bf32805d66a3abb8a7",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 60.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": true,
+  "overview": "芝1500m、13頭、馬場状態は良、天候は小雨、降水量は1.0mm/h、風は北西5m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌2R レース予報",
+  "top_place_horse": "7番チカバリエンテ",
+  "top_place_rate": 76,
+  "updated_at": "2026-08-08T10:15+09:00",
+  "warning_count": 6
+}
