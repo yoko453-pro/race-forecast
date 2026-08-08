@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T14:05:54+09:00",
-  "race_count": 24,
+  "generated_at": "2026-08-08T14:35:31+09:00",
+  "race_count": 25,
   "days": [
     {
       "date": "2026-08-08",
@@ -551,6 +551,34 @@
               "top_place_horse": "4番ビーチイン",
               "top_place_rate": 59,
               "updated_at": "2026-08-08T14:05+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 10,
+              "label": "10R",
+              "path": "2026-08-08/sapporo/10R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 71,
+              "distance": 2000,
+              "field_size": 8,
+              "forecast_id": "forecast-2026080801010510-cb4fc7bae95ff586697f",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 57.3,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 81,
+              "odds_available": true,
+              "overview": "芝2000m、8頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北西6m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は81%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌10R レース予報",
+              "top_place_horse": "1番スカイサーベイ",
+              "top_place_rate": 88,
+              "updated_at": "2026-08-08T14:35+09:00",
               "warning_count": 6
             }
           ]
