@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T15:30:10+09:00",
-  "race_count": 30,
+  "generated_at": "2026-08-08T15:45:52+09:00",
+  "race_count": 31,
   "days": [
     {
       "date": "2026-08-08",
@@ -719,6 +719,34 @@
               "top_place_horse": "2番レヴォントゥレット",
               "top_place_rate": 63,
               "updated_at": "2026-08-08T15:10+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-08",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-08/sapporo/12R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 65,
+              "distance": 1500,
+              "field_size": 13,
+              "forecast_id": "forecast-2026080801010512-636acca1a484369f6917",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 68.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 73,
+              "odds_available": true,
+              "overview": "芝1500m、13頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北西6m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は73%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌12R レース予報",
+              "top_place_horse": "9番レッドスティンガー",
+              "top_place_rate": 47,
+              "updated_at": "2026-08-08T15:45+09:00",
               "warning_count": 6
             }
           ]
