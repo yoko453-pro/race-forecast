@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>札幌11R レース予報</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f7f4;
+      --foreground: #20231f;
+      --card: #ffffff;
+      --card-foreground: #20231f;
+      --muted: #e8e9e4;
+      --muted-foreground: #5e625b;
+      --border: #d5d8d0;
+      --series-1: #256b52;
+      --series-2: #ad6b18;
+      --series-3: #63726a;
+      --danger: #a84432;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #151815;
+        --foreground: #ecefe9;
+        --card: #1d211e;
+        --card-foreground: #ecefe9;
+        --muted: #303531;
+        --muted-foreground: #b7bdb5;
+        --border: #3b423c;
+        --series-1: #72b99d;
+        --series-2: #e0a253;
+        --series-3: #8f9b94;
+        --danger: #df8878;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: system-ui, -apple-system, "Yu Gothic UI", sans-serif;
+      line-height: 1.65;
+    }
+    main { width: min(1040px, calc(100% - 32px)); margin: 32px auto 64px; }
+    header { margin-bottom: 28px; }
+    h1, h2 { line-height: 1.3; }
+    h1 { margin: 0 0 4px; font-size: clamp(1.65rem, 4vw, 2.35rem); }
+    h2 { margin: 0 0 12px; font-size: 1.15rem; }
+    p { margin: 0 0 10px; }
+    .meta, .chart-note { color: var(--muted-foreground); font-size: .9rem; }
+    .forecast-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+      gap: 14px;
+      margin: 28px 0;
+    }
+    .forecast-section, .gauge {
+      background: var(--card);
+      color: var(--card-foreground);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .forecast-section p:last-child { margin-bottom: 0; }
+    .visual-section { margin: 34px 0; }
+    .gauge-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .gauge { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+    .gauge-track, .bar-track {
+      display: block;
+      overflow: hidden;
+      background: var(--muted);
+      border-radius: 999px;
+    }
+    .gauge-track { height: 10px; grid-column: 1 / -1; }
+    .gauge-track > span { display: block; height: 100%; background: var(--series-1); }
+    .gauge-track.unavailable {
+      background: repeating-linear-gradient(135deg, var(--muted), var(--muted) 6px,
+        var(--border) 6px, var(--border) 12px);
+    }
+    .bar-chart { display: grid; gap: 10px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(150px, 2fr) minmax(120px, 5fr) 64px;
+      gap: 12px;
+      align-items: center;
+    }
+    .bar-track { height: 14px; }
+    .bar-track > span { display: block; height: 100%; border-radius: inherit; }
+    .scenario-bar, .factor-bar { background: var(--series-1); }
+    .muted-bar, .factor-bar.decreases_magire { background: var(--series-3); }
+    .factor-bar.neutral { background: var(--series-2); }
+    .bar-value { text-align: right; }
+    .rank-axis {
+      display: flex;
+      justify-content: space-between;
+      margin-left: min(34%, 280px);
+      color: var(--muted-foreground);
+      font-size: .85rem;
+    }
+    .rank-chart { display: grid; gap: 13px; }
+    .rank-row {
+      display: grid;
+      grid-template-columns: minmax(150px, 1.2fr) minmax(180px, 1.5fr) minmax(180px, 3fr);
+      gap: 12px;
+      align-items: center;
+    }
+    .rank-summary { color: var(--muted-foreground); font-size: .85rem; }
+    .rank-track { position: relative; display: block; height: 12px; background: var(--muted); }
+    .rank-range {
+      position: absolute;
+      top: 2px;
+      height: 8px;
+      background: var(--series-1);
+      border-radius: 999px;
+    }
+    .rank-median {
+      position: absolute;
+      top: -3px;
+      width: 3px;
+      height: 18px;
+      background: var(--foreground);
+      transform: translateX(-1px);
+    }
+    .notice {
+      margin-top: 34px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted-foreground);
+      font-size: .9rem;
+    }
+    @media (max-width: 640px) {
+      main { width: min(100% - 20px, 1040px); margin-top: 20px; }
+      .bar-row { grid-template-columns: 1fr 56px; gap: 6px 10px; }
+      .bar-track { grid-column: 1 / -1; grid-row: 2; }
+      .bar-value { grid-column: 2; grid-row: 1; }
+      .rank-axis { margin-left: 0; }
+      .rank-row { grid-template-columns: 1fr; gap: 3px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>札幌11R レース予報</h1>
+    <p class="meta">更新: FINAL・2026-08-08T15:10+09:00 / Forecast ID: forecast-2026080801010511-0e892f19add7f62ea257</p>
+  </header>
+
+  <div class="forecast-grid">
+    <section class="forecast-section" data-section="RACE_OVERVIEW">
+      <h2>概況</h2>
+<p>ダート1700m、11頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北西6m/sです。</p>    </section>
+    <section class="forecast-section" data-section="PACE_FORECAST">
+      <h2>ペース予報</h2>
+<p>推定では平均ペースとなる見込みが中心で、その確率は70%です。</p>    </section>
+    <section class="forecast-section" data-section="FORMATION">
+      <h2>主導権・隊列</h2>
+<p>主導権候補は8番ウェイワードアクトで、序盤の位置取りを左右する見込みです。 1コーナーの密集度は50%の推定です。</p>    </section>
+    <section class="forecast-section" data-section="MAIN_SCENARIO">
+      <h2>中心となる展開</h2>
+<p>想定は平均ペースで、逃げ馬1頭が主導権を握りやすい形です。有利になりやすい脚質は「逃げ」です。</p><p>中心となる展開として「標準的な力関係」が70%の可能性で見込まれます。</p>    </section>
+    <section class="forecast-section" data-section="ALTERNATIVE_SCENARIOS">
+      <h2>別の展開</h2>
+<p>別の展開として「前半が速くなり前方勢が崩れる流れ」が26%の可能性で残ります。</p>    </section>
+    <section class="forecast-section" data-section="BODY_WEIGHT">
+      <h2>馬体重</h2>
+<p>馬体重が発表された11頭に、12kg以上または2.5%以上の増減はありません。</p>    </section>
+    <section class="forecast-section" data-section="MAGIRE_WARNING">
+      <h2>まぎれ警報</h2>
+<p>まぎれ指数は63.5点、警戒レベルはHIGHです。</p><p>能力差の小ささが12.5点寄与し、不安定さを強める条件です。</p><p>先行争いが7.6点寄与し、不安定さを抑える条件です。</p><p>位置取り競合が7.5点寄与し、不安定さを抑える条件です。</p>    </section>
+    <section class="forecast-section" data-section="TOP_PLACE_HORSE">
+      <h2>複勝率トップ</h2>
+<p>シミュレーション上の複勝率トップは2番レヴォントゥレットで、複勝率は63%です。</p>    </section>
+    <section class="forecast-section" data-section="FAVORED_ROLES">
+      <h2>展開の恩恵を受けやすい役割</h2>
+<p>能力上位が恩恵を受けやすい見込みです。</p><p>1番アクションプランは、中心シナリオとなる場合、前方を追走する役割の面で恩恵を受けやすい。</p><p>2番レヴォントゥレットは、中心シナリオとなる場合、前方を追走する役割の面で恩恵を受けやすい。</p><p>3番ルクソールカフェは、中心シナリオとなる場合、前方を追走する役割の面で恩恵を受けやすい。</p>    </section>
+    <section class="forecast-section" data-section="RISK_ROLES">
+      <h2>注意を要する役割</h2>
+<p>特に注意を要する役割は絞り込めません。</p>    </section>
+    <section class="forecast-section" data-section="CONFIDENCE">
+      <h2>予報確度</h2>
+<p>MEDIUM</p><p>確度スコアは59%で、一定の幅を残した予報です。</p>    </section>
+    <section class="forecast-section" data-section="DATA_WARNINGS">
+      <h2>データ警告</h2>
+<p>データ警告: FIRST_CORNER_DISTANCE_UNAVAILABLE</p><p>データ警告: GOING_CODE_UNAVAILABLE</p><p>データ警告: RT_BODY_WEIGHT_PUBLISH_TIME_UNAVAILABLE</p><p>データ警告: SOURCE_CAPTURED_AT:2026-08-08T15:10:23.150076+09:00</p><p>データ警告: IMPUTED_RUNNER_VALUES:22</p><p>外部コース専用シミュレーターは実行可能ですが、当該コースの検証済み認定前です。</p>    </section>
+  </div>
+
+  <section class="visual-section" aria-labelledby="score-title"><h2 id="score-title">まぎれ指数</h2><div class="gauge-grid"><div class="gauge"><span class="gauge-label">総合まぎれ指数</span><strong>63.5点</strong><div class="gauge-track" role="meter" aria-label="総合まぎれ指数" aria-valuemin="0" aria-valuemax="100" aria-valuenow="63.5"><span style="width:63.489%"></span></div></div><div class="gauge"><span class="gauge-label">odds-free</span><strong>57.9点</strong><div class="gauge-track" role="meter" aria-label="odds-free" aria-valuemin="0" aria-valuemax="100" aria-valuenow="57.9"><span style="width:57.858%"></span></div></div></div></section>
+<section class="visual-section" aria-labelledby="scenario-title"><h2 id="scenario-title">上位シナリオ</h2><div class="bar-chart" role="img" aria-label="上位シナリオごとの発生確率"><div class="bar-row"><span class="bar-label">標準的な力関係</span><span class="bar-track" aria-hidden="true"><span class="scenario-bar" style="width:69.680%"></span></span><strong class="bar-value">69.7%</strong></div><div class="bar-row"><span class="bar-label">前半が速くなり前方勢が崩れる流れ</span><span class="bar-track" aria-hidden="true"><span class="scenario-bar" style="width:25.820%"></span></span><strong class="bar-value">25.8%</strong></div></div></section>
+<section class="visual-section" aria-labelledby="factor-title"><h2 id="factor-title">要因寄与</h2><div class="bar-chart" role="img" aria-label="表示対象となった要因の寄与点"><div class="bar-row"><span class="bar-label">能力差の小ささ（上昇方向）</span><span class="bar-track" aria-hidden="true"><span class="factor-bar increases_magire" style="width:100.000%"></span></span><strong class="bar-value">12.5点</strong></div><div class="bar-row"><span class="bar-label">先行争い（抑制方向）</span><span class="bar-track" aria-hidden="true"><span class="factor-bar decreases_magire" style="width:60.880%"></span></span><strong class="bar-value">7.6点</strong></div><div class="bar-row"><span class="bar-label">位置取り競合（抑制方向）</span><span class="bar-track" aria-hidden="true"><span class="factor-bar decreases_magire" style="width:59.766%"></span></span><strong class="bar-value">7.5点</strong></div></div></section>
+<section class="visual-section" aria-labelledby="rank-title"><h2 id="rank-title">馬別順位分布要約</h2><p class="chart-note">横線は推定中央値±標準偏差、印は中央値です。</p><div class="rank-axis" aria-hidden="true"><span>1着</span><span>11着</span></div><div class="rank-chart"><div class="rank-row"><span class="rank-horse">2番 レヴォントゥレット</span><span class="rank-summary">中央値2.0着、標準偏差2.8着、3着内確率63.0%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:0.000%;width:37.596%"></span><span class="rank-median" style="left:10.000%"></span></span></div><div class="rank-row"><span class="rank-horse">4番 ナチュラルライズ</span><span class="rank-summary">中央値3.0着、標準偏差2.8着、3着内確率50.6%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:0.000%;width:48.103%"></span><span class="rank-median" style="left:20.000%"></span></span></div><div class="rank-row"><span class="rank-horse">8番 ウェイワードアクト</span><span class="rank-summary">中央値4.0着、標準偏差2.8着、3着内確率48.7%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:2.331%;width:55.338%"></span><span class="rank-median" style="left:30.000%"></span></span></div><div class="rank-row"><span class="rank-horse">5番 テーオーパスワード</span><span class="rank-summary">中央値5.0着、標準偏差2.8着、3着内確率33.3%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:12.276%;width:55.449%"></span><span class="rank-median" style="left:40.000%"></span></span></div><div class="rank-row"><span class="rank-horse">1番 アクションプラン</span><span class="rank-summary">中央値5.0着、標準偏差3.0着、3着内確率32.7%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:9.933%;width:60.135%"></span><span class="rank-median" style="left:40.000%"></span></span></div><div class="rank-row"><span class="rank-horse">6番 ヴァルツァーシャル</span><span class="rank-summary">中央値6.0着、標準偏差2.8着、3着内確率19.5%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:22.219%;width:55.563%"></span><span class="rank-median" style="left:50.000%"></span></span></div></div></section>
+
+  <p class="notice">注記: 本スコアは結果分布の分散であり期待値ではない。</p>
+</main>
+</body>
+</html>
