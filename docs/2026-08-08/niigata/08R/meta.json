@@ -1,0 +1,22 @@
+{
+  "confidence_level": "MEDIUM",
+  "confidence_score": 64,
+  "distance": 1400,
+  "field_size": 9,
+  "forecast_id": "forecast-2026080804020508-2f326608a4c10beafa66",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 66.9,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 79,
+  "odds_available": true,
+  "overview": "芝1400m、9頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北東3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は79%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟8R レース予報",
+  "top_place_horse": "2番カレンハウ",
+  "top_place_rate": 64,
+  "updated_at": "2026-08-08T15:55+09:00",
+  "warning_count": 6
+}
