@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T10:15:25+09:00",
-  "race_count": 46,
+  "generated_at": "2026-08-09T10:26:03+09:00",
+  "race_count": 47,
   "days": [
     {
       "date": "2026-08-09",
@@ -125,6 +125,34 @@
               "top_place_horse": "1番クリガーレ",
               "top_place_rate": 39,
               "updated_at": "2026-08-09T09:55+09:00",
+              "warning_count": 7
+            },
+            {
+              "date": "2026-08-09",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 3,
+              "label": "3R",
+              "path": "2026-08-09/niigata/03R/",
+              "confidence_level": "LOW",
+              "confidence_score": 48,
+              "distance": 1200,
+              "field_size": 15,
+              "forecast_id": "forecast-2026080904020603-a9bb523462ce7aae478b",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 60.2,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 71,
+              "odds_available": true,
+              "overview": "ダート1200m、15頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北4m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "新潟3R レース予報",
+              "top_place_horse": "4番エコロセレナ",
+              "top_place_rate": 67,
+              "updated_at": "2026-08-09T10:25+09:00",
               "warning_count": 7
             }
           ]
