@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T11:35:38+09:00",
-  "race_count": 54,
+  "generated_at": "2026-08-09T12:05:17+09:00",
+  "race_count": 55,
   "days": [
     {
       "date": "2026-08-09",
@@ -412,6 +412,34 @@
               "top_place_rate": 60,
               "updated_at": "2026-08-09T11:15+09:00",
               "warning_count": 6
+            },
+            {
+              "date": "2026-08-09",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-09/sapporo/05R/",
+              "confidence_level": "LOW",
+              "confidence_score": 50,
+              "distance": 1500,
+              "field_size": 13,
+              "forecast_id": "forecast-2026080901010605-49a8fa08b4f6e1cb6047",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 68.2,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 75,
+              "odds_available": true,
+              "overview": "芝1500m、13頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北西5m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌5R レース予報",
+              "top_place_horse": "1番ガザニア",
+              "top_place_rate": 38,
+              "updated_at": "2026-08-09T12:05+09:00",
+              "warning_count": 7
             }
           ]
         }
