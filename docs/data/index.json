@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T15:45:34+09:00",
-  "race_count": 66,
+  "generated_at": "2026-08-09T15:55:13+09:00",
+  "race_count": 67,
   "days": [
     {
       "date": "2026-08-09",
@@ -405,6 +405,34 @@
               "top_place_horse": "4番チェリヴェント",
               "top_place_rate": 54,
               "updated_at": "2026-08-09T15:20+09:00",
+              "warning_count": 6
+            },
+            {
+              "date": "2026-08-09",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 8,
+              "label": "8R",
+              "path": "2026-08-09/niigata/08R/",
+              "confidence_level": "MEDIUM",
+              "confidence_score": 66,
+              "distance": 1000,
+              "field_size": 17,
+              "forecast_id": "forecast-2026080904020608-49e3038df0de522e263c",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 64.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 69,
+              "odds_available": true,
+              "overview": "芝1000m、17頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は69%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟8R レース予報",
+              "top_place_horse": "8番カレンデュラ",
+              "top_place_rate": 60,
+              "updated_at": "2026-08-09T15:55+09:00",
               "warning_count": 6
             }
           ]
