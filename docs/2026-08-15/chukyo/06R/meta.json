@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 36,
+  "distance": 1200,
+  "field_size": 11,
+  "forecast_id": "forecast-2026081507020706-ebe26a6fa3a5a2b6b86d",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 59.6,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 76,
+  "odds_available": false,
+  "overview": "芝1200m、11頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は76%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京6R レース予報",
+  "top_place_horse": "4番モンサンゴールデン",
+  "top_place_rate": 67,
+  "updated_at": "2026-08-15T14:55+09:00",
+  "warning_count": 10
+}
