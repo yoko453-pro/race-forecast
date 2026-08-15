@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 34,
+  "distance": 1700,
+  "field_size": 11,
+  "forecast_id": "forecast-2026081501010708-6531cc654a2de3be8efb",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 53.1,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 77,
+  "odds_available": false,
+  "overview": "ダート1700m、11頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東7m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は77%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "札幌8R レース予報",
+  "top_place_horse": "9番ロードアマルフィ",
+  "top_place_rate": 62,
+  "updated_at": "2026-08-15T13:36+09:00",
+  "warning_count": 12
+}
