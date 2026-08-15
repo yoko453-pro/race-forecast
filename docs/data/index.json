@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T17:16:00+09:00",
-  "race_count": 106,
+  "generated_at": "2026-08-15T17:31:05+09:00",
+  "race_count": 107,
   "days": [
     {
       "date": "2026-08-15",
@@ -545,6 +545,34 @@
               "top_place_horse": "9番マーチンゲール",
               "top_place_rate": 77,
               "updated_at": "2026-08-15T17:00+09:00",
+              "warning_count": 10
+            },
+            {
+              "date": "2026-08-15",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 11,
+              "label": "11R",
+              "path": "2026-08-15/niigata/11R/",
+              "confidence_level": "LOW",
+              "confidence_score": 10,
+              "distance": 1000,
+              "field_size": 18,
+              "forecast_id": "forecast-2026081504020711-87e30ae00fad7e6982c5",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 58.0,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 69,
+              "odds_available": false,
+              "overview": "芝1000m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は東1m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は69%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟11R レース予報",
+              "top_place_horse": "2番コンフィアンサ",
+              "top_place_rate": 56,
+              "updated_at": "2026-08-15T17:30+09:00",
               "warning_count": 10
             }
           ]
