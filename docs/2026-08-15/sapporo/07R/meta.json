@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 20,
+  "distance": 2000,
+  "field_size": 15,
+  "forecast_id": "forecast-2026081501010707-5e35999d41317b195d9d",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 60.9,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 71,
+  "odds_available": false,
+  "overview": "芝2000m、15頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東7m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌7R レース予報",
+  "top_place_horse": "1番メリザンド",
+  "top_place_rate": 68,
+  "updated_at": "2026-08-15T13:05+09:00",
+  "warning_count": 11
+}
