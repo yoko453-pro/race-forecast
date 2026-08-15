@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 21,
+  "distance": 1700,
+  "field_size": 14,
+  "forecast_id": "forecast-2026081501010701-7f2eb9f18682d767af8e",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 49.2,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": false,
+  "overview": "ダート1700m、14頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南南東6m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "札幌1R レース予報",
+  "top_place_horse": "3番クルビデンス",
+  "top_place_rate": 86,
+  "updated_at": "2026-08-15T09:45+09:00",
+  "warning_count": 10
+}
