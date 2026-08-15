@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T09:45:53+09:00",
-  "race_count": 78,
+  "generated_at": "2026-08-15T09:55:36+09:00",
+  "race_count": 79,
   "days": [
     {
       "date": "2026-08-15",
@@ -70,6 +70,34 @@
               "top_place_rate": 81,
               "updated_at": "2026-08-15T09:25+09:00",
               "warning_count": 10
+            },
+            {
+              "date": "2026-08-15",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 2,
+              "label": "2R",
+              "path": "2026-08-15/niigata/02R/",
+              "confidence_level": "LOW",
+              "confidence_score": 9,
+              "distance": 1400,
+              "field_size": 15,
+              "forecast_id": "forecast-2026081504020702-efc56cc3e1ac05f6ddbd",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 68.1,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 71,
+              "odds_available": false,
+              "overview": "芝1400m、15頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南東3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟2R レース予報",
+              "top_place_horse": "1番カナデルペガサス",
+              "top_place_rate": 28,
+              "updated_at": "2026-08-15T09:55+09:00",
+              "warning_count": 11
             }
           ]
         },
