@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 21,
+  "distance": 1400,
+  "field_size": 15,
+  "forecast_id": "forecast-2026081507020702-d3efc2259f4488f8f331",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 54.4,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 71,
+  "odds_available": false,
+  "overview": "芝1400m、15頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南南東3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京2R レース予報",
+  "top_place_horse": "7番ヤマニンアレシス",
+  "top_place_rate": 79,
+  "updated_at": "2026-08-15T10:05+09:00",
+  "warning_count": 11
+}
