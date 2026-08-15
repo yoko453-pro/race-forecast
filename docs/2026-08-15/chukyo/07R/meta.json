@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 44,
+  "distance": 2000,
+  "field_size": 8,
+  "forecast_id": "forecast-2026081507020707-21194126a3d6d42cf233",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 54.6,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 80,
+  "odds_available": false,
+  "overview": "芝2000m、8頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東4m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は80%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京7R レース予報",
+  "top_place_horse": "7番フィオレストラーダ",
+  "top_place_rate": 65,
+  "updated_at": "2026-08-15T15:30+09:00",
+  "warning_count": 11
+}
