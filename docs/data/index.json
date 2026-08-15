@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T10:45:41+09:00",
-  "race_count": 84,
+  "generated_at": "2026-08-15T10:55:29+09:00",
+  "race_count": 85,
   "days": [
     {
       "date": "2026-08-15",
@@ -181,6 +181,34 @@
               "top_place_horse": "1番ルークスイテルム",
               "top_place_rate": 38,
               "updated_at": "2026-08-15T10:25+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-15",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 4,
+              "label": "4R",
+              "path": "2026-08-15/niigata/04R/",
+              "confidence_level": "LOW",
+              "confidence_score": 12,
+              "distance": 1200,
+              "field_size": 15,
+              "forecast_id": "forecast-2026081504020704-ca12b8b6048411eac5e8",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 53.2,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 71,
+              "odds_available": false,
+              "overview": "ダート1200m、15頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南東3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "新潟4R レース予報",
+              "top_place_horse": "12番レイズレガシー",
+              "top_place_rate": 68,
+              "updated_at": "2026-08-15T10:55+09:00",
               "warning_count": 11
             }
           ]
