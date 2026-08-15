@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 8,
+  "distance": 1400,
+  "field_size": 18,
+  "forecast_id": "forecast-2026081504020705-05dd9f6e7bc2d1b189db",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 62.5,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 69,
+  "odds_available": false,
+  "overview": "芝1400m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は69%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟5R レース予報",
+  "top_place_horse": "4番ウフドゥウフ",
+  "top_place_rate": 51,
+  "updated_at": "2026-08-15T11:25+09:00",
+  "warning_count": 10
+}
