@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T10:35:52+09:00",
-  "race_count": 118,
+  "generated_at": "2026-08-16T10:45:34+09:00",
+  "race_count": 119,
   "days": [
     {
       "date": "2026-08-16",
@@ -244,6 +244,34 @@
               "top_place_rate": 86,
               "updated_at": "2026-08-16T10:15+09:00",
               "warning_count": 11
+            },
+            {
+              "date": "2026-08-16",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 3,
+              "label": "3R",
+              "path": "2026-08-16/sapporo/03R/",
+              "confidence_level": "LOW",
+              "confidence_score": 20,
+              "distance": 1800,
+              "field_size": 14,
+              "forecast_id": "forecast-2026081601010803-613753cff409b667b7eb",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 59.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 72,
+              "odds_available": false,
+              "overview": "芝1800m、14頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東6m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は72%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌3R レース予報",
+              "top_place_horse": "5番ハヤブササキチャン",
+              "top_place_rate": 71,
+              "updated_at": "2026-08-16T10:45+09:00",
+              "warning_count": 10
             }
           ]
         }
