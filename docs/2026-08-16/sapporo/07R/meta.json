@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 9,
+  "distance": 2000,
+  "field_size": 16,
+  "forecast_id": "forecast-2026081601010807-34d6e68702d0f50ec05a",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.6,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 70,
+  "odds_available": false,
+  "overview": "芝2000m、16頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東7m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は70%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌7R レース予報",
+  "top_place_horse": "6番ロッサコメータ",
+  "top_place_rate": 66,
+  "updated_at": "2026-08-16T13:10+09:00",
+  "warning_count": 11
+}
