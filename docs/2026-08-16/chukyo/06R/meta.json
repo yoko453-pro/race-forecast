@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 42,
+  "distance": 2000,
+  "field_size": 7,
+  "forecast_id": "forecast-2026081607020806-ab8ded32559c06bc53e1",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 53.0,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 81,
+  "odds_available": false,
+  "overview": "芝2000m、7頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南4m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は81%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京6R レース予報",
+  "top_place_horse": "6番パフュームセント",
+  "top_place_rate": 51,
+  "updated_at": "2026-08-16T14:45+09:00",
+  "warning_count": 11
+}
