@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T10:45:34+09:00",
-  "race_count": 119,
+  "generated_at": "2026-08-16T10:56:10+09:00",
+  "race_count": 120,
   "days": [
     {
       "date": "2026-08-16",
@@ -182,6 +182,34 @@
               "top_place_rate": 72,
               "updated_at": "2026-08-16T10:25+09:00",
               "warning_count": 10
+            },
+            {
+              "date": "2026-08-16",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 4,
+              "label": "4R",
+              "path": "2026-08-16/niigata/04R/",
+              "confidence_level": "LOW",
+              "confidence_score": 18,
+              "distance": 1600,
+              "field_size": 13,
+              "forecast_id": "forecast-2026081604020804-78b4e66b45a89077fd9f",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 66.9,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 74,
+              "odds_available": false,
+              "overview": "芝1600m、13頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南東3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟4R レース予報",
+              "top_place_horse": "2番ビップラージャ",
+              "top_place_rate": 29,
+              "updated_at": "2026-08-16T10:55+09:00",
+              "warning_count": 11
             }
           ]
         },
