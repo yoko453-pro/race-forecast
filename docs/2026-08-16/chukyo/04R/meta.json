@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 6,
+  "distance": 2000,
+  "field_size": 18,
+  "forecast_id": "forecast-2026081607020804-d3b8929571cce3231a9d",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 48.5,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 68,
+  "odds_available": false,
+  "overview": "芝2000m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南4m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は68%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京4R レース予報",
+  "top_place_horse": "2番コスモフィレンツェ",
+  "top_place_rate": 91,
+  "updated_at": "2026-08-16T11:05+09:00",
+  "warning_count": 11
+}
