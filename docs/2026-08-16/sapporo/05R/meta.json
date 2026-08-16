@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 22,
+  "distance": 1800,
+  "field_size": 12,
+  "forecast_id": "forecast-2026081601010805-13b47056a602def7fc2b",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 66.0,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": false,
+  "overview": "芝1800m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東6m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌5R レース予報",
+  "top_place_horse": "1番ミライショウグン",
+  "top_place_rate": 42,
+  "updated_at": "2026-08-16T12:05+09:00",
+  "warning_count": 12
+}
