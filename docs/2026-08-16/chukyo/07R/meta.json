@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 1600,
+  "field_size": 16,
+  "forecast_id": "forecast-2026081607020807-288d6e329d2ff4b95897",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 65.4,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 70,
+  "odds_available": false,
+  "overview": "芝1600m、16頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南4m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は70%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京7R レース予報",
+  "top_place_horse": "7番カネラフィーナ",
+  "top_place_rate": 37,
+  "updated_at": "2026-08-16T15:20+09:00",
+  "warning_count": 11
+}
