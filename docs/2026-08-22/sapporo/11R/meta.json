@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 20,
+  "distance": 2000,
+  "field_size": 14,
+  "forecast_id": "forecast-2026082201020111-abd0c07316f4c63baa25",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.9,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 73,
+  "odds_available": false,
+  "overview": "芝2000m、14頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北西3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は73%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌11R レース予報",
+  "top_place_horse": "10番スピードリッチ",
+  "top_place_rate": 62,
+  "updated_at": "2026-08-22T15:30+09:00",
+  "warning_count": 11
+}
