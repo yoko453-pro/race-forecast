@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 26,
+  "distance": 1800,
+  "field_size": 15,
+  "forecast_id": "forecast-2026082204030104-c94c0b5f8fbb42b1abb4",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 54.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 73,
+  "odds_available": false,
+  "overview": "ダート1800m、15頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北西2m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は73%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟4R レース予報",
+  "top_place_horse": "2番ルシアージュ",
+  "top_place_rate": 73,
+  "updated_at": "2026-08-22T10:55+09:00",
+  "warning_count": 10
+}
