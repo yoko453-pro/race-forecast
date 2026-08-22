@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 38,
+  "distance": 1900,
+  "field_size": 10,
+  "forecast_id": "forecast-2026082207030108-0d445c8e0392423fb7d0",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 53.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 78,
+  "odds_available": false,
+  "overview": "ダート1900m、10頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南南西3m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は78%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京8R レース予報",
+  "top_place_horse": "1番バケラッタ",
+  "top_place_rate": 78,
+  "updated_at": "2026-08-22T15:55+09:00",
+  "warning_count": 10
+}
