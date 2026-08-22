@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T13:45:33+09:00",
-  "race_count": 163,
+  "generated_at": "2026-08-22T14:21:13+09:00",
+  "race_count": 164,
   "days": [
     {
       "date": "2026-08-22",
@@ -523,6 +523,34 @@
               "top_place_horse": "1番ルージュビバーチェ",
               "top_place_rate": 72,
               "updated_at": "2026-08-22T13:45+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-22",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 9,
+              "label": "9R",
+              "path": "2026-08-22/sapporo/09R/",
+              "confidence_level": "LOW",
+              "confidence_score": 14,
+              "distance": 1500,
+              "field_size": 14,
+              "forecast_id": "forecast-2026082201020109-f45faa92366b775c1493",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 65.8,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 72,
+              "odds_available": false,
+              "overview": "芝1500m、14頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北西4m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は72%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌9R レース予報",
+              "top_place_horse": "6番ブルージェイ",
+              "top_place_rate": 63,
+              "updated_at": "2026-08-22T14:21+09:00",
               "warning_count": 11
             }
           ]
