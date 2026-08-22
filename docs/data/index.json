@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T11:15:27+09:00",
-  "race_count": 157,
+  "generated_at": "2026-08-22T11:26:12+09:00",
+  "race_count": 158,
   "days": [
     {
       "date": "2026-08-22",
@@ -238,6 +238,34 @@
               "top_place_rate": 73,
               "updated_at": "2026-08-22T10:55+09:00",
               "warning_count": 10
+            },
+            {
+              "date": "2026-08-22",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-22/niigata/05R/",
+              "confidence_level": "LOW",
+              "confidence_score": 47,
+              "distance": 1600,
+              "field_size": 18,
+              "forecast_id": "forecast-2026082204030105-8492c48348e7c2e2d80a",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 62.2,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 68,
+              "odds_available": true,
+              "overview": "芝1600m、18頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北西2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は68%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟5R レース予報",
+              "top_place_horse": "3番ココナッツコースト",
+              "top_place_rate": 65,
+              "updated_at": "2026-08-22T11:25+09:00",
+              "warning_count": 6
             }
           ]
         },
