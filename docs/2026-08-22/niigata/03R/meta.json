@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 18,
+  "distance": 1600,
+  "field_size": 13,
+  "forecast_id": "forecast-2026082204030103-b2e9528a2ce505a92c4b",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 66.9,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": false,
+  "overview": "芝1600m、13頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は西北西1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟3R レース予報",
+  "top_place_horse": "1番テンソンコウリン",
+  "top_place_rate": 29,
+  "updated_at": "2026-08-22T10:25+09:00",
+  "warning_count": 11
+}
