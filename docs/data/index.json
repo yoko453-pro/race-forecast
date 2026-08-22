@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T10:55:55+09:00",
-  "race_count": 155,
+  "generated_at": "2026-08-22T11:05:41+09:00",
+  "race_count": 156,
   "days": [
     {
       "date": "2026-08-22",
@@ -92,6 +92,34 @@
               "top_place_rate": 77,
               "updated_at": "2026-08-22T10:35+09:00",
               "warning_count": 6
+            },
+            {
+              "date": "2026-08-22",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 4,
+              "label": "4R",
+              "path": "2026-08-22/chukyo/04R/",
+              "confidence_level": "LOW",
+              "confidence_score": 9,
+              "distance": 2000,
+              "field_size": 18,
+              "forecast_id": "forecast-2026082207030104-4c67545dd8d1742fa1ef",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 54.6,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 68,
+              "odds_available": false,
+              "overview": "芝2000m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は西北西2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は68%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京4R レース予報",
+              "top_place_horse": "15番ペガサスジルシ",
+              "top_place_rate": 73,
+              "updated_at": "2026-08-22T11:05+09:00",
+              "warning_count": 11
             }
           ]
         },
