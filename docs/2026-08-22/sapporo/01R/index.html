@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>札幌1R レース予報</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f7f4;
+      --foreground: #20231f;
+      --card: #ffffff;
+      --card-foreground: #20231f;
+      --muted: #e8e9e4;
+      --muted-foreground: #5e625b;
+      --border: #d5d8d0;
+      --series-1: #256b52;
+      --series-2: #ad6b18;
+      --series-3: #63726a;
+      --danger: #a84432;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #151815;
+        --foreground: #ecefe9;
+        --card: #1d211e;
+        --card-foreground: #ecefe9;
+        --muted: #303531;
+        --muted-foreground: #b7bdb5;
+        --border: #3b423c;
+        --series-1: #72b99d;
+        --series-2: #e0a253;
+        --series-3: #8f9b94;
+        --danger: #df8878;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: system-ui, -apple-system, "Yu Gothic UI", sans-serif;
+      line-height: 1.65;
+    }
+    main { width: min(1040px, calc(100% - 32px)); margin: 32px auto 64px; }
+    header { margin-bottom: 28px; }
+    h1, h2 { line-height: 1.3; }
+    h1 { margin: 0 0 4px; font-size: clamp(1.65rem, 4vw, 2.35rem); }
+    h2 { margin: 0 0 12px; font-size: 1.15rem; }
+    p { margin: 0 0 10px; }
+    .meta, .chart-note { color: var(--muted-foreground); font-size: .9rem; }
+    .forecast-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+      gap: 14px;
+      margin: 28px 0;
+    }
+    .forecast-section, .gauge {
+      background: var(--card);
+      color: var(--card-foreground);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .forecast-section p:last-child { margin-bottom: 0; }
+    .visual-section { margin: 34px 0; }
+    .gauge-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .gauge { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+    .gauge-track, .bar-track {
+      display: block;
+      overflow: hidden;
+      background: var(--muted);
+      border-radius: 999px;
+    }
+    .gauge-track { height: 10px; grid-column: 1 / -1; }
+    .gauge-track > span { display: block; height: 100%; background: var(--series-1); }
+    .gauge-track.unavailable {
+      background: repeating-linear-gradient(135deg, var(--muted), var(--muted) 6px,
+        var(--border) 6px, var(--border) 12px);
+    }
+    .bar-chart { display: grid; gap: 10px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(150px, 2fr) minmax(120px, 5fr) 64px;
+      gap: 12px;
+      align-items: center;
+    }
+    .bar-track { height: 14px; }
+    .bar-track > span { display: block; height: 100%; border-radius: inherit; }
+    .scenario-bar, .factor-bar { background: var(--series-1); }
+    .muted-bar, .factor-bar.decreases_magire { background: var(--series-3); }
+    .factor-bar.neutral { background: var(--series-2); }
+    .bar-value { text-align: right; }
+    .rank-axis {
+      display: flex;
+      justify-content: space-between;
+      margin-left: min(34%, 280px);
+      color: var(--muted-foreground);
+      font-size: .85rem;
+    }
+    .rank-chart { display: grid; gap: 13px; }
+    .rank-row {
+      display: grid;
+      grid-template-columns: minmax(150px, 1.2fr) minmax(180px, 1.5fr) minmax(180px, 3fr);
+      gap: 12px;
+      align-items: center;
+    }
+    .rank-summary { color: var(--muted-foreground); font-size: .85rem; }
+    .rank-track { position: relative; display: block; height: 12px; background: var(--muted); }
+    .rank-range {
+      position: absolute;
+      top: 2px;
+      height: 8px;
+      background: var(--series-1);
+      border-radius: 999px;
+    }
+    .rank-median {
+      position: absolute;
+      top: -3px;
+      width: 3px;
+      height: 18px;
+      background: var(--foreground);
+      transform: translateX(-1px);
+    }
+    .notice {
+      margin-top: 34px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted-foreground);
+      font-size: .9rem;
+    }
+    @media (max-width: 640px) {
+      main { width: min(100% - 20px, 1040px); margin-top: 20px; }
+      .bar-row { grid-template-columns: 1fr 56px; gap: 6px 10px; }
+      .bar-track { grid-column: 1 / -1; grid-row: 2; }
+      .bar-value { grid-column: 2; grid-row: 1; }
+      .rank-axis { margin-left: 0; }
+      .rank-row { grid-template-columns: 1fr; gap: 3px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>札幌1R レース予報</h1>
+    <p class="meta">更新: FINAL・2026-08-22T09:45+09:00 / Forecast ID: forecast-2026082201020101-41e3212130d72248a5a7</p>
+  </header>
+
+  <div class="forecast-grid">
+    <section class="forecast-section" data-section="RACE_OVERVIEW">
+      <h2>概況</h2>
+<p>ダート1700m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は東北東1m/sです。</p>    </section>
+    <section class="forecast-section" data-section="DATA_WARNINGS">
+      <h2>データ警告</h2>
+<p>市場オッズを利用できません。</p><p>データ警告: FIRST_CORNER_DISTANCE_UNAVAILABLE</p><p>データ警告: MARKET_ODDS_NOT_CAPTURED</p><p>データ警告: MARKET_ODDS_NOT_CAPTURED_FOR_RACE</p><p>データ警告: RT_BODY_WEIGHT_PUBLISH_TIME_UNAVAILABLE</p><p>データ警告: SOURCE_CAPTURED_AT:2026-08-22T09:44:57.666729+09:00</p><p>データ警告: IMPUTED_RUNNER_VALUES:36</p><p>データ警告: MARKET_ODDS_UNAVAILABLE_ODDS_FREE_ONLY</p><p>外部コース専用シミュレーターは実行可能ですが、当該コースの検証済み認定前です。</p><p>市場オッズを利用できません。</p>    </section>
+    <section class="forecast-section" data-section="PACE_FORECAST">
+      <h2>ペース予報</h2>
+<p>推定では平均ペースとなる見込みが中心で、その確率は74%です。</p>    </section>
+    <section class="forecast-section" data-section="FORMATION">
+      <h2>主導権・隊列</h2>
+<p>主導権候補は2番アンバーバレット、9番シンゼンノトで、序盤の位置取りを左右する見込みです。 1コーナーの密集度は43%の推定です。</p>    </section>
+    <section class="forecast-section" data-section="MAIN_SCENARIO">
+      <h2>中心となる展開</h2>
+<p>想定は平均ペースで、逃げ馬2頭で隊列は標準的な形です。有利になりやすい脚質は「先行」です。</p><p>中心となる展開として「標準的な力関係」が74%の可能性で見込まれます。</p>    </section>
+    <section class="forecast-section" data-section="BODY_WEIGHT">
+      <h2>馬体重</h2>
+<p>馬体重の増減が大きいのは1頭です。増減はまぎれ指数にも順位にも反映していません。</p><p>11番サウンドエフォートは494kg、前走から+14kgです。</p>    </section>
+    <section class="forecast-section" data-section="MAGIRE_WARNING">
+      <h2>まぎれ警報</h2>
+<p>まぎれ指数は48.1点、警戒レベルはMEDIUMです。</p><p>能力差の小ささが13.1点寄与し、不安定さを強める条件です。</p><p>先行争いが11.2点寄与し、不安定さを強める条件です。</p>    </section>
+    <section class="forecast-section" data-section="TOP_PLACE_HORSE">
+      <h2>複勝率トップ</h2>
+<p>シミュレーション上の複勝率トップは4番ファラオクィーンで、複勝率は94%です。</p>    </section>
+    <section class="forecast-section" data-section="FAVORED_ROLES">
+      <h2>展開の恩恵を受けやすい役割</h2>
+<p>能力上位が恩恵を受けやすい見込みです。</p><p>1番レイテスツドリームは、中心シナリオとなる場合、後方から進出する役割の面で恩恵を受けやすい。</p><p>2番アンバーバレットは、中心シナリオとなる場合、ペースを作る役割の面で恩恵を受けやすい。</p><p>3番サーギュスターヴは、中心シナリオとなる場合、後方から進出する役割の面で恩恵を受けやすい。</p>    </section>
+    <section class="forecast-section" data-section="RISK_ROLES">
+      <h2>注意を要する役割</h2>
+<p>特に注意を要する役割は絞り込めません。</p>    </section>
+    <section class="forecast-section" data-section="CONFIDENCE">
+      <h2>予報確度</h2>
+<p>LOW</p><p>確度スコアは24%で、データ不足を踏まえ、幅を持って見る必要があります。</p>    </section>
+  </div>
+
+  <section class="visual-section" aria-labelledby="score-title"><h2 id="score-title">まぎれ指数</h2><div class="gauge-grid"><div class="gauge"><span class="gauge-label">総合まぎれ指数</span><strong>48.1点</strong><div class="gauge-track" role="meter" aria-label="総合まぎれ指数" aria-valuemin="0" aria-valuemax="100" aria-valuenow="48.1"><span style="width:48.062%"></span></div></div><div class="gauge"><span class="gauge-label">odds-free</span><strong>49.5点</strong><div class="gauge-track" role="meter" aria-label="odds-free" aria-valuemin="0" aria-valuemax="100" aria-valuenow="49.5"><span style="width:49.517%"></span></div></div></div></section>
+<section class="visual-section" aria-labelledby="scenario-title"><h2 id="scenario-title">上位シナリオ</h2><div class="bar-chart" role="img" aria-label="上位シナリオごとの発生確率"><div class="bar-row"><span class="bar-label">標準的な力関係</span><span class="bar-track" aria-hidden="true"><span class="scenario-bar" style="width:74.180%"></span></span><strong class="bar-value">74.2%</strong></div></div></section>
+<section class="visual-section" aria-labelledby="factor-title"><h2 id="factor-title">要因寄与</h2><div class="bar-chart" role="img" aria-label="表示対象となった要因の寄与点"><div class="bar-row"><span class="bar-label">能力差の小ささ（上昇方向）</span><span class="bar-track" aria-hidden="true"><span class="factor-bar increases_magire" style="width:100.000%"></span></span><strong class="bar-value">13.1点</strong></div><div class="bar-row"><span class="bar-label">先行争い（上昇方向）</span><span class="bar-track" aria-hidden="true"><span class="factor-bar increases_magire" style="width:85.689%"></span></span><strong class="bar-value">11.2点</strong></div></div></section>
+<section class="visual-section" aria-labelledby="rank-title"><h2 id="rank-title">馬別順位分布要約</h2><p class="chart-note">横線は推定中央値±標準偏差、印は中央値です。</p><div class="rank-axis" aria-hidden="true"><span>1着</span><span>12着</span></div><div class="rank-chart"><div class="rank-row"><span class="rank-horse">4番 ファラオクィーン</span><span class="rank-summary">中央値1.0着、標準偏差1.0着、3着内確率94.0%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:0.000%;width:8.773%"></span><span class="rank-median" style="left:0.000%"></span></span></div><div class="rank-row"><span class="rank-horse">7番 トゥザファイナル</span><span class="rank-summary">中央値2.0着、標準偏差1.2着、3着内確率81.8%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:0.000%;width:19.764%"></span><span class="rank-median" style="left:9.091%"></span></span></div><div class="rank-row"><span class="rank-horse">2番 アンバーバレット</span><span class="rank-summary">中央値3.0着、標準偏差1.4着、3着内確率71.7%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:5.480%;width:25.404%"></span><span class="rank-median" style="left:18.182%"></span></span></div><div class="rank-row"><span class="rank-horse">9番 シンゼンノト</span><span class="rank-summary">中央値4.0着、標準偏差1.7着、3着内確率36.0%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:12.234%;width:30.077%"></span><span class="rank-median" style="left:27.273%"></span></span></div><div class="rank-row"><span class="rank-horse">3番 サーギュスターヴ</span><span class="rank-summary">中央値6.0着、標準偏差1.9着、3着内確率7.7%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:28.583%;width:33.743%"></span><span class="rank-median" style="left:45.455%"></span></span></div><div class="rank-row"><span class="rank-horse">11番 サウンドエフォート</span><span class="rank-summary">中央値6.0着、標準偏差1.8着、3着内確率6.4%</span><span class="rank-track" aria-hidden="true"><span class="rank-range" style="left:28.822%;width:33.265%"></span><span class="rank-median" style="left:45.455%"></span></span></div></div></section>
+
+  <p class="notice">注記: 本スコアは結果分布の分散であり期待値ではない。</p>
+</main>
+</body>
+</html>
