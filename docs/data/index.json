@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T17:56:08+09:00",
-  "race_count": 178,
+  "generated_at": "2026-08-22T18:05:36+09:00",
+  "race_count": 179,
   "days": [
     {
       "date": "2026-08-22",
@@ -287,6 +287,34 @@
               "top_place_horse": "12番ハムタン",
               "top_place_rate": 52,
               "updated_at": "2026-08-22T17:35+09:00",
+              "warning_count": 12
+            },
+            {
+              "date": "2026-08-22",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-22/chukyo/12R/",
+              "confidence_level": "LOW",
+              "confidence_score": 5,
+              "distance": 1200,
+              "field_size": 17,
+              "forecast_id": "forecast-2026082207030112-c77c8f49aff5d7d76c3c",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 53.9,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "芝1200m、17頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は59%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京12R レース予報",
+              "top_place_horse": "12番チュウワメロディー",
+              "top_place_rate": 79,
+              "updated_at": "2026-08-22T18:05+09:00",
               "warning_count": 12
             }
           ]
