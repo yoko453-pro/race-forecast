@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 22,
+  "distance": 1800,
+  "field_size": 12,
+  "forecast_id": "forecast-2026082204030102-d8f37c0aa0f01a61540d",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 52.7,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 75,
+  "odds_available": false,
+  "overview": "ダート1800m、12頭、馬場状態は良、天候は小雨、降水量は0.3mm/h、風は西北西1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟2R レース予報",
+  "top_place_horse": "5番オーケーエース",
+  "top_place_rate": 71,
+  "updated_at": "2026-08-22T09:55+09:00",
+  "warning_count": 10
+}
