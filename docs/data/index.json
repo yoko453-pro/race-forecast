@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T09:55:58+09:00",
-  "race_count": 183,
+  "generated_at": "2026-08-23T10:05:35+09:00",
+  "race_count": 184,
   "days": [
     {
       "date": "2026-08-23",
@@ -36,6 +36,34 @@
               "top_place_rate": 57,
               "updated_at": "2026-08-23T09:35+09:00",
               "warning_count": 13
+            },
+            {
+              "date": "2026-08-23",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 2,
+              "label": "2R",
+              "path": "2026-08-23/chukyo/02R/",
+              "confidence_level": "LOW",
+              "confidence_score": 40,
+              "distance": 2000,
+              "field_size": 8,
+              "forecast_id": "forecast-2026082307030202-7528c444d9934c4467ce",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 61.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 80,
+              "odds_available": false,
+              "overview": "芝2000m、8頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南西1m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は80%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京2R レース予報",
+              "top_place_horse": "1番コルソヴェローチェ",
+              "top_place_rate": 48,
+              "updated_at": "2026-08-23T10:05+09:00",
+              "warning_count": 11
             }
           ]
         },
