@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T10:05:35+09:00",
-  "race_count": 184,
+  "generated_at": "2026-08-23T10:15:13+09:00",
+  "race_count": 185,
   "days": [
     {
       "date": "2026-08-23",
@@ -159,6 +159,34 @@
               "top_place_horse": "3番アイビーミャーオ",
               "top_place_rate": 68,
               "updated_at": "2026-08-23T09:45+09:00",
+              "warning_count": 10
+            },
+            {
+              "date": "2026-08-23",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 2,
+              "label": "2R",
+              "path": "2026-08-23/sapporo/02R/",
+              "confidence_level": "LOW",
+              "confidence_score": 22,
+              "distance": 1500,
+              "field_size": 12,
+              "forecast_id": "forecast-2026082301020202-d0ea079eaf826cc2ac20",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 51.4,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 75,
+              "odds_available": false,
+              "overview": "芝1500m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東4m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌2R レース予報",
+              "top_place_horse": "1番デザートスピリット",
+              "top_place_rate": 86,
+              "updated_at": "2026-08-23T10:15+09:00",
               "warning_count": 10
             }
           ]
