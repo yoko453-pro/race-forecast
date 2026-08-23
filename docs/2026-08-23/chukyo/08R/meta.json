@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 22,
+  "distance": 1200,
+  "field_size": 16,
+  "forecast_id": "forecast-2026082307030208-52f18c407a514192f8a4",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 60.5,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 71,
+  "odds_available": false,
+  "overview": "ダート1200m、16頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東4m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は71%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京8R レース予報",
+  "top_place_horse": "3番オプティモ",
+  "top_place_rate": 64,
+  "updated_at": "2026-08-23T15:55+09:00",
+  "warning_count": 11
+}
