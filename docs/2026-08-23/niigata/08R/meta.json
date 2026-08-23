@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 28,
+  "distance": 1400,
+  "field_size": 12,
+  "forecast_id": "forecast-2026082304030208-fef97d24cbc6830f301d",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 57.2,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 75,
+  "odds_available": false,
+  "overview": "芝1400m、12頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は東北東1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟8R レース予報",
+  "top_place_horse": "7番ラパンチュール",
+  "top_place_rate": 49,
+  "updated_at": "2026-08-23T15:45+09:00",
+  "warning_count": 10
+}
