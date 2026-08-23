@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 32,
+  "distance": 2000,
+  "field_size": 12,
+  "forecast_id": "forecast-2026082304030210-f3c0f1164ae24dbdf554",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 57.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": false,
+  "overview": "芝2000m、12頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北北東1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟10R レース予報",
+  "top_place_horse": "4番リポサンテ",
+  "top_place_rate": 62,
+  "updated_at": "2026-08-23T16:55+09:00",
+  "warning_count": 11
+}
