@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 28,
+  "distance": 1800,
+  "field_size": 12,
+  "forecast_id": "forecast-2026082304030212-3ccd3311cdbf385d0142",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 43.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 74,
+  "odds_available": false,
+  "overview": "ダート1800m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北東1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は74%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟12R レース予報",
+  "top_place_horse": "7番クリムゾンリーフ",
+  "top_place_rate": 94,
+  "updated_at": "2026-08-23T17:55+09:00",
+  "warning_count": 11
+}
