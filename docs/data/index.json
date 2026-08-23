@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T09:35:40+09:00",
-  "race_count": 181,
+  "generated_at": "2026-08-23T09:45:15+09:00",
+  "race_count": 182,
   "days": [
     {
       "date": "2026-08-23",
@@ -70,6 +70,40 @@
               "top_place_rate": 95,
               "updated_at": "2026-08-23T09:25+09:00",
               "warning_count": 13
+            }
+          ]
+        },
+        {
+          "slug": "sapporo",
+          "name": "札幌",
+          "races": [
+            {
+              "date": "2026-08-23",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 1,
+              "label": "1R",
+              "path": "2026-08-23/sapporo/01R/",
+              "confidence_level": "LOW",
+              "confidence_score": 30,
+              "distance": 1000,
+              "field_size": 12,
+              "forecast_id": "forecast-2026082301020201-fa3633c40b787ed996f0",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 57.7,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 75,
+              "odds_available": false,
+              "overview": "ダート1000m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南東4m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌1R レース予報",
+              "top_place_horse": "3番アイビーミャーオ",
+              "top_place_rate": 68,
+              "updated_at": "2026-08-23T09:45+09:00",
+              "warning_count": 10
             }
           ]
         }
