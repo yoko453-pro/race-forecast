@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T11:15:45+09:00",
-  "race_count": 190,
+  "generated_at": "2026-08-23T11:25:32+09:00",
+  "race_count": 191,
   "days": [
     {
       "date": "2026-08-23",
@@ -209,6 +209,34 @@
               "top_place_horse": "7番メビウスロマンス",
               "top_place_rate": 69,
               "updated_at": "2026-08-23T10:55+09:00",
+              "warning_count": 10
+            },
+            {
+              "date": "2026-08-23",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-23/niigata/05R/",
+              "confidence_level": "LOW",
+              "confidence_score": 10,
+              "distance": 1800,
+              "field_size": 18,
+              "forecast_id": "forecast-2026082304030205-7154a2f737c4c7f348c0",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 51.5,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 68,
+              "odds_available": false,
+              "overview": "芝1800m、18頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は西南西2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は68%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟5R レース予報",
+              "top_place_horse": "4番バンオンタイム",
+              "top_place_rate": 85,
+              "updated_at": "2026-08-23T11:25+09:00",
               "warning_count": 10
             }
           ]
