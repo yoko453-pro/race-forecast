@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 8,
+  "distance": 1400,
+  "field_size": 12,
+  "forecast_id": "forecast-2026082304030201-6bbc6078091d49bc9037",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 44.3,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "芝1400m、12頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南東1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は55%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟1R レース予報",
+  "top_place_horse": "12番ノーセット",
+  "top_place_rate": 95,
+  "updated_at": "2026-08-23T09:25+09:00",
+  "warning_count": 13
+}
