@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 18,
+  "distance": 1800,
+  "field_size": 15,
+  "forecast_id": "forecast-2026082304030206-92a6cd3be460244b6e50",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 61.6,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 72,
+  "odds_available": false,
+  "overview": "ダート1800m、15頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北西1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は72%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟6R レース予報",
+  "top_place_horse": "7番ブレトワルダ",
+  "top_place_rate": 68,
+  "updated_at": "2026-08-23T14:35+09:00",
+  "warning_count": 10
+}
