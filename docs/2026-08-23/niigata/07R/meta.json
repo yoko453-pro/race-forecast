@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 32,
+  "distance": 1600,
+  "field_size": 10,
+  "forecast_id": "forecast-2026082304030207-0846e3ac429814560c72",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 56.1,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 77,
+  "odds_available": false,
+  "overview": "芝1600m、10頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は北北西1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は77%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟7R レース予報",
+  "top_place_horse": "2番レッチュベルク",
+  "top_place_rate": 63,
+  "updated_at": "2026-08-23T15:10+09:00",
+  "warning_count": 11
+}
