@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 36,
+  "distance": 2400,
+  "field_size": 11,
+  "forecast_id": "forecast-2026082301020207-e77ed00dc626f8f5dd90",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.8,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 76,
+  "odds_available": false,
+  "overview": "ダート2400m、11頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東5m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は76%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "札幌7R レース予報",
+  "top_place_horse": "4番リバーソニック",
+  "top_place_rate": 63,
+  "updated_at": "2026-08-23T13:10+09:00",
+  "warning_count": 11
+}
