@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T15:20:38+09:00",
-  "race_count": 202,
+  "generated_at": "2026-08-23T15:30:15+09:00",
+  "race_count": 203,
   "days": [
     {
       "date": "2026-08-23",
@@ -663,6 +663,34 @@
               "top_place_horse": "3番ハイクオリティ",
               "top_place_rate": 59,
               "updated_at": "2026-08-23T14:55+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-23",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 11,
+              "label": "11R",
+              "path": "2026-08-23/sapporo/11R/",
+              "confidence_level": "LOW",
+              "confidence_score": 18,
+              "distance": 1200,
+              "field_size": 16,
+              "forecast_id": "forecast-2026082301020211-fc80a34df0c146346751",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 63.8,
+              "main_scenario": "標準的な力関係",
+              "main_scenario_prob": 70,
+              "odds_available": false,
+              "overview": "芝1200m、16頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東5m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は70%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌11R レース予報",
+              "top_place_horse": "8番ウインカーネリアン",
+              "top_place_rate": 68,
+              "updated_at": "2026-08-23T15:30+09:00",
               "warning_count": 11
             }
           ]
