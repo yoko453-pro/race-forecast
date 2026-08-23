@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 30,
+  "distance": 2000,
+  "field_size": 13,
+  "forecast_id": "forecast-2026082301020209-aed9d718dc813ee73333",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.0,
+  "main_scenario": "標準的な力関係",
+  "main_scenario_prob": 75,
+  "odds_available": false,
+  "overview": "芝2000m、13頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は南南東5m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は75%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌9R レース予報",
+  "top_place_horse": "2番ハルフロンティア",
+  "top_place_rate": 58,
+  "updated_at": "2026-08-23T14:20+09:00",
+  "warning_count": 10
+}
