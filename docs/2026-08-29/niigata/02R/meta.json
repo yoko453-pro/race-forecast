@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 1800,
+  "field_size": 15,
+  "forecast_id": "forecast-2026082904030302-52e5bc6ae3701a8f8d32",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 50.8,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "ダート1800m、15頭、馬場状態は稍重、天候は小雨、降水量は1.0mm/h、風は東南東2m/sです。",
+  "pace": "推定ではややスローペースとなる見込みが中心で、その確率は61%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟2R レース予報",
+  "top_place_horse": "7番ゴールドプレイヤー",
+  "top_place_rate": 75,
+  "updated_at": "2026-08-29T10:00+09:00",
+  "warning_count": 11
+}
