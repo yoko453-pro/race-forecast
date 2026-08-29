@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 13,
+  "distance": 2000,
+  "field_size": 11,
+  "forecast_id": "forecast-2026082907030301-815019cc08783bb91e2d",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 42.0,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝2000m、11頭、馬場状態は稍重、天候は曇り、降水量は0.0mm/h、風は南1m/sです。",
+  "pace": "推定ではスローペースとなる見込みが中心で、その確率は68%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京1R レース予報",
+  "top_place_horse": "1番エンルートフライト",
+  "top_place_rate": 92,
+  "updated_at": "2026-08-29T09:35+09:00",
+  "warning_count": 12
+}
