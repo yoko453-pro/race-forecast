@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 8,
+  "distance": 1800,
+  "field_size": 14,
+  "forecast_id": "forecast-2026082907030312-128fbce6937cd23cd555",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 56.0,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "ダート1800m、14頭、馬場状態は稍重、天候は小雨、降水量は0.1mm/h、風は北東1m/sです。",
+  "pace": "推定ではスローペースとなる見込みが中心で、その確率は62%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京12R レース予報",
+  "top_place_horse": "3番タガノランパート",
+  "top_place_rate": 68,
+  "updated_at": "2026-08-29T18:00+09:00",
+  "warning_count": 11
+}
