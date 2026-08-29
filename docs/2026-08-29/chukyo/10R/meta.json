@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 1400,
+  "field_size": 16,
+  "forecast_id": "forecast-2026082907030310-2800f02f4800e6428083",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.4,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "ダート1400m、16頭、馬場状態は稍重、天候は小雨、降水量は2.0mm/h、風は北2m/sです。",
+  "pace": "推定ではやや速いペースとなる見込みが中心で、その確率は55%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京10R レース予報",
+  "top_place_horse": "13番グランメドウ",
+  "top_place_rate": 62,
+  "updated_at": "2026-08-29T17:00+09:00",
+  "warning_count": 11
+}
