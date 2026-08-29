@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T11:40:34+09:00",
-  "race_count": 226,
+  "generated_at": "2026-08-29T12:05:04+09:00",
+  "race_count": 227,
   "days": [
     {
       "date": "2026-08-29",
@@ -384,6 +384,34 @@
               "top_place_rate": 86,
               "updated_at": "2026-08-29T11:15+09:00",
               "warning_count": 11
+            },
+            {
+              "date": "2026-08-29",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 5,
+              "label": "5R",
+              "path": "2026-08-29/sapporo/05R/",
+              "confidence_level": "LOW",
+              "confidence_score": 5,
+              "distance": 1700,
+              "field_size": 14,
+              "forecast_id": "forecast-2026082901020305-ebc37dfc184178606805",
+              "going": "GOOD",
+              "magire_level": "HIGH",
+              "magire_score": 70.1,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "ダート1700m、14頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は北北西3m/sです。",
+              "pace": "推定ではスローペースとなる見込みが中心で、その確率は65%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌5R レース予報",
+              "top_place_horse": "1番ユーフォナイト",
+              "top_place_rate": 24,
+              "updated_at": "2026-08-29T12:05+09:00",
+              "warning_count": 12
             }
           ]
         }
