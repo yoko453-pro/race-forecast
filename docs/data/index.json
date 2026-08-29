@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T17:30:24+09:00",
-  "race_count": 246,
+  "generated_at": "2026-08-29T17:50:56+09:00",
+  "race_count": 247,
   "days": [
     {
       "date": "2026-08-29",
@@ -601,6 +601,34 @@
               "top_place_horse": "15番レッドレガリア",
               "top_place_rate": 84,
               "updated_at": "2026-08-29T17:15+09:00",
+              "warning_count": 12
+            },
+            {
+              "date": "2026-08-29",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-29/niigata/12R/",
+              "confidence_level": "LOW",
+              "confidence_score": 5,
+              "distance": 1200,
+              "field_size": 15,
+              "forecast_id": "forecast-2026082904030312-99fc62a1ab9a80d5d057",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 47.0,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "ダート1200m、15頭、馬場状態は稍重、天候は曇り、降水量は0.0mm/h、風は東北東2m/sです。",
+              "pace": "推定ではスローペースとなる見込みが中心で、その確率は63%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "新潟12R レース予報",
+              "top_place_horse": "7番ロンバスブレス",
+              "top_place_rate": 94,
+              "updated_at": "2026-08-29T17:50+09:00",
               "warning_count": 12
             }
           ]
