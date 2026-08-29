@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 2200,
+  "field_size": 16,
+  "forecast_id": "forecast-2026082907030304-ea085f717440817dd682",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 53.2,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝2200m、16頭、馬場状態は良、天候は小雨、降水量は0.1mm/h、風は西南西2m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は57%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京4R レース予報",
+  "top_place_horse": "13番マイコンプリート",
+  "top_place_rate": 73,
+  "updated_at": "2026-08-29T11:10+09:00",
+  "warning_count": 12
+}
