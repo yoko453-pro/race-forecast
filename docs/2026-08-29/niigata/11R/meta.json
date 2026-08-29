@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 2000,
+  "field_size": 18,
+  "forecast_id": "forecast-2026082904030311-4e98325e89eb10f103e0",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 50.9,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝2000m、18頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は東北東1m/sです。",
+  "pace": "推定ではスローペースとなる見込みが中心で、その確率は66%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟11R レース予報",
+  "top_place_horse": "15番レッドレガリア",
+  "top_place_rate": 84,
+  "updated_at": "2026-08-29T17:15+09:00",
+  "warning_count": 12
+}
