@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T15:30:22+09:00",
-  "race_count": 238,
+  "generated_at": "2026-08-29T15:45:56+09:00",
+  "race_count": 239,
   "days": [
     {
       "date": "2026-08-29",
@@ -719,6 +719,34 @@
               "top_place_horse": "6番アリスメティーク",
               "top_place_rate": 89,
               "updated_at": "2026-08-29T15:10+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-29",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 12,
+              "label": "12R",
+              "path": "2026-08-29/sapporo/12R/",
+              "confidence_level": "LOW",
+              "confidence_score": 21,
+              "distance": 1700,
+              "field_size": 12,
+              "forecast_id": "forecast-2026082901020312-55fcef2146a49f4e947d",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 57.2,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "ダート1700m、12頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は北北西3m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は59%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌12R レース予報",
+              "top_place_horse": "11番タガノエルー",
+              "top_place_rate": 70,
+              "updated_at": "2026-08-29T15:45+09:00",
               "warning_count": 11
             }
           ]
