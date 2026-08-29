@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T13:05:06+09:00",
-  "race_count": 229,
+  "generated_at": "2026-08-29T13:35:36+09:00",
+  "race_count": 230,
   "days": [
     {
       "date": "2026-08-29",
@@ -467,6 +467,34 @@
               "top_place_horse": "8番ジーティーエスピ",
               "top_place_rate": 47,
               "updated_at": "2026-08-29T13:05+09:00",
+              "warning_count": 12
+            },
+            {
+              "date": "2026-08-29",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 8,
+              "label": "8R",
+              "path": "2026-08-29/sapporo/08R/",
+              "confidence_level": "LOW",
+              "confidence_score": 16,
+              "distance": 1700,
+              "field_size": 11,
+              "forecast_id": "forecast-2026082901020308-a3e27a368547c46f62a6",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 54.4,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "ダート1700m、11頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は北北西4m/sです。",
+              "pace": "推定ではやや速いペースとなる見込みが中心で、その確率は56%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌8R レース予報",
+              "top_place_horse": "6番レッドフロイデ",
+              "top_place_rate": 72,
+              "updated_at": "2026-08-29T13:35+09:00",
               "warning_count": 12
             }
           ]
