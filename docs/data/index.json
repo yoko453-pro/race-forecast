@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T16:10:56+09:00",
-  "race_count": 241,
+  "generated_at": "2026-08-29T16:30:24+09:00",
+  "race_count": 242,
   "days": [
     {
       "date": "2026-08-29",
@@ -232,6 +232,34 @@
               "top_place_rate": 73,
               "updated_at": "2026-08-29T15:56+09:00",
               "warning_count": 7
+            },
+            {
+              "date": "2026-08-29",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 9,
+              "label": "9R",
+              "path": "2026-08-29/chukyo/09R/",
+              "confidence_level": "LOW",
+              "confidence_score": 26,
+              "distance": 1800,
+              "field_size": 9,
+              "forecast_id": "forecast-2026082907030309-dc2b2f1160294ab855ca",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 49.5,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "ダート1800m、9頭、馬場状態は稍重、天候は小雨、降水量は1.0mm/h、風は東北東2m/sです。",
+              "pace": "推定ではスローペースとなる見込みが中心で、その確率は60%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "中京9R レース予報",
+              "top_place_horse": "9番メイショウアカリ",
+              "top_place_rate": 84,
+              "updated_at": "2026-08-29T16:30+09:00",
+              "warning_count": 11
             }
           ]
         },
