@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 1800,
+  "field_size": 15,
+  "forecast_id": "forecast-2026082904030306-5358078317c38de595cb",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 63.8,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "ダート1800m、15頭、馬場状態は良、天候は小雨、降水量は0.3mm/h、風は東北東2m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は56%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "新潟6R レース予報",
+  "top_place_horse": "4番ヨドノタイヨウ",
+  "top_place_rate": 55,
+  "updated_at": "2026-08-29T14:20+09:00",
+  "warning_count": 13
+}
