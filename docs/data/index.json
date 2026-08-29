@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T10:00:59+09:00",
-  "race_count": 216,
+  "generated_at": "2026-08-29T10:10:26+09:00",
+  "race_count": 217,
   "days": [
     {
       "date": "2026-08-29",
@@ -36,6 +36,34 @@
               "top_place_rate": 92,
               "updated_at": "2026-08-29T09:35+09:00",
               "warning_count": 12
+            },
+            {
+              "date": "2026-08-29",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 2,
+              "label": "2R",
+              "path": "2026-08-29/chukyo/02R/",
+              "confidence_level": "LOW",
+              "confidence_score": 8,
+              "distance": 1800,
+              "field_size": 12,
+              "forecast_id": "forecast-2026082907030302-672aa819b33176645c59",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 48.4,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "ダート1800m、12頭、馬場状態は稍重、天候は小雨、降水量は0.1mm/h、風は南南西2m/sです。",
+              "pace": "推定ではスローペースとなる見込みが中心で、その確率は61%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "中京2R レース予報",
+              "top_place_horse": "7番オーリエイト",
+              "top_place_rate": 88,
+              "updated_at": "2026-08-29T10:10+09:00",
+              "warning_count": 11
             }
           ]
         },
