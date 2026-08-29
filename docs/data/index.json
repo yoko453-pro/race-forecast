@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T10:40:51+09:00",
-  "race_count": 220,
+  "generated_at": "2026-08-29T10:45:17+09:00",
+  "race_count": 221,
   "days": [
     {
       "date": "2026-08-29",
@@ -216,6 +216,34 @@
               "top_place_rate": 81,
               "updated_at": "2026-08-29T10:15+09:00",
               "warning_count": 12
+            },
+            {
+              "date": "2026-08-29",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 3,
+              "label": "3R",
+              "path": "2026-08-29/sapporo/03R/",
+              "confidence_level": "LOW",
+              "confidence_score": 12,
+              "distance": 1800,
+              "field_size": 11,
+              "forecast_id": "forecast-2026082901020303-a0754a8220f50d3f05be",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 51.8,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "芝1800m、11頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は北3m/sです。",
+              "pace": "推定ではやや速いペースとなる見込みが中心で、その確率は58%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌3R レース予報",
+              "top_place_horse": "5番ロマノヴェリテ",
+              "top_place_rate": 80,
+              "updated_at": "2026-08-29T10:45+09:00",
+              "warning_count": 11
             }
           ]
         }
