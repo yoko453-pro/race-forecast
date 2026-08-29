@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 13,
+  "distance": 1500,
+  "field_size": 14,
+  "forecast_id": "forecast-2026082901020306-e5663237e2fe8b294047",
+  "going": "GOOD",
+  "magire_level": "HIGH",
+  "magire_score": 69.0,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "芝1500m、14頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は北北西3m/sです。",
+  "pace": "推定では速いペースとなる見込みが中心で、その確率は59%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌6R レース予報",
+  "top_place_horse": "3番イトシサ",
+  "top_place_rate": 47,
+  "updated_at": "2026-08-29T12:35+09:00",
+  "warning_count": 11
+}
