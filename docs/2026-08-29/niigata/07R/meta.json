@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 2000,
+  "field_size": 17,
+  "forecast_id": "forecast-2026082904030307-12f00878176ae248eae8",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 56.7,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝2000m、17頭、馬場状態は良、天候は小雨、降水量は0.7mm/h、風は東北東2m/sです。",
+  "pace": "推定ではややスローペースとなる見込みが中心で、その確率は58%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟7R レース予報",
+  "top_place_horse": "16番ピエナフェーヴル",
+  "top_place_rate": 68,
+  "updated_at": "2026-08-29T14:55+09:00",
+  "warning_count": 12
+}
