@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T13:35:36+09:00",
-  "race_count": 230,
+  "generated_at": "2026-08-29T14:06:02+09:00",
+  "race_count": 231,
   "days": [
     {
       "date": "2026-08-29",
@@ -495,6 +495,34 @@
               "top_place_horse": "6番レッドフロイデ",
               "top_place_rate": 72,
               "updated_at": "2026-08-29T13:35+09:00",
+              "warning_count": 12
+            },
+            {
+              "date": "2026-08-29",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 9,
+              "label": "9R",
+              "path": "2026-08-29/sapporo/09R/",
+              "confidence_level": "LOW",
+              "confidence_score": 19,
+              "distance": 1800,
+              "field_size": 12,
+              "forecast_id": "forecast-2026082901020309-48f77e58185733d44f0b",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 59.8,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "芝1800m、12頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は北北西4m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は58%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "札幌9R レース予報",
+              "top_place_horse": "7番グランセゾン",
+              "top_place_rate": 65,
+              "updated_at": "2026-08-29T14:06+09:00",
               "warning_count": 12
             }
           ]
