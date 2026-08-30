@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 9,
+  "distance": 1700,
+  "field_size": 14,
+  "forecast_id": "forecast-2026083001020401-8f18048ff1694e077a8d",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 61.6,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "ダート1700m、14頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南南東4m/sです。",
+  "pace": "推定では速いペースとなる見込みが中心で、その確率は61%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "札幌1R レース予報",
+  "top_place_horse": "1番タガノシルフィー",
+  "top_place_rate": 51,
+  "updated_at": "2026-08-30T09:45+09:00",
+  "warning_count": 13
+}
