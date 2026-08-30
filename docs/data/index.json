@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T17:00:55+09:00",
-  "race_count": 279,
+  "generated_at": "2026-08-30T17:15:24+09:00",
+  "race_count": 280,
   "days": [
     {
       "date": "2026-08-30",
@@ -546,6 +546,34 @@
               "top_place_rate": 70,
               "updated_at": "2026-08-30T16:45+09:00",
               "warning_count": 12
+            },
+            {
+              "date": "2026-08-30",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 11,
+              "label": "11R",
+              "path": "2026-08-30/niigata/11R/",
+              "confidence_level": "LOW",
+              "confidence_score": 11,
+              "distance": 1800,
+              "field_size": 14,
+              "forecast_id": "forecast-2026083004030411-d42f03576e3e2772fb31",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 56.8,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "芝1800m、14頭、馬場状態は稍重、天候は小雨、降水量は1.0mm/h、風は南2m/sです。",
+              "pace": "推定では平均ペースとなる見込みが中心で、その確率は56%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟11R レース予報",
+              "top_place_horse": "10番タッセルノット",
+              "top_place_rate": 64,
+              "updated_at": "2026-08-30T17:15+09:00",
+              "warning_count": 11
             }
           ]
         },
