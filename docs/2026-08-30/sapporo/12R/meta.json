@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 12,
+  "distance": 2600,
+  "field_size": 14,
+  "forecast_id": "forecast-2026083001020412-14953fa23ef52e6517f5",
+  "going": "FIRM",
+  "magire_level": "MEDIUM",
+  "magire_score": 54.1,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "芝2600m、14頭、馬場状態は良、天候は曇り、降水量は0.0mm/h、風は南南東6m/sです。",
+  "pace": "推定ではやや速いペースとなる見込みが中心で、その確率は57%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "札幌12R レース予報",
+  "top_place_horse": "1番ノリマル",
+  "top_place_rate": 65,
+  "updated_at": "2026-08-30T15:45+09:00",
+  "warning_count": 11
+}
