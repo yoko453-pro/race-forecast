@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 5,
+  "distance": 1800,
+  "field_size": 15,
+  "forecast_id": "forecast-2026083007030409-a5c70f9c8d46d7ded298",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 54.8,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "ダート1800m、15頭、馬場状態は稍重、天候は小雨、降水量は0.5mm/h、風は北北西3m/sです。",
+  "pace": "推定ではやや速いペースとなる見込みが中心で、その確率は55%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京9R レース予報",
+  "top_place_horse": "10番アキノビューティー",
+  "top_place_rate": 72,
+  "updated_at": "2026-08-30T16:30+09:00",
+  "warning_count": 11
+}
