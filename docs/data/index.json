@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T16:45:25+09:00",
-  "race_count": 278,
+  "generated_at": "2026-08-30T17:00:55+09:00",
+  "race_count": 279,
   "days": [
     {
       "date": "2026-08-30",
@@ -259,6 +259,34 @@
               "top_place_horse": "10番アキノビューティー",
               "top_place_rate": 72,
               "updated_at": "2026-08-30T16:30+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-30",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 10,
+              "label": "10R",
+              "path": "2026-08-30/chukyo/10R/",
+              "confidence_level": "LOW",
+              "confidence_score": 22,
+              "distance": 2000,
+              "field_size": 10,
+              "forecast_id": "forecast-2026083007030410-68931b031a6ec50ab724",
+              "going": "FIRM",
+              "magire_level": "MEDIUM",
+              "magire_score": 52.4,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "芝2000m、10頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は西北西1m/sです。",
+              "pace": "推定ではややスローペースとなる見込みが中心で、その確率は61%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京10R レース予報",
+              "top_place_horse": "3番サイモンノーブル",
+              "top_place_rate": 77,
+              "updated_at": "2026-08-30T17:00+09:00",
               "warning_count": 11
             }
           ]
