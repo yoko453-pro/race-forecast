@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T11:00:07+09:00",
-  "race_count": 257,
+  "generated_at": "2026-08-30T11:10:34+09:00",
+  "race_count": 258,
   "days": [
     {
       "date": "2026-08-30",
@@ -91,6 +91,34 @@
               "top_place_horse": "1番サイモンジェセル",
               "top_place_rate": 29,
               "updated_at": "2026-08-30T10:40+09:00",
+              "warning_count": 12
+            },
+            {
+              "date": "2026-08-30",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 4,
+              "label": "4R",
+              "path": "2026-08-30/chukyo/04R/",
+              "confidence_level": "LOW",
+              "confidence_score": 5,
+              "distance": 1400,
+              "field_size": 16,
+              "forecast_id": "forecast-2026083007030404-92364b91783d568d0517",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 46.7,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 52,
+              "odds_available": false,
+              "overview": "ダート1400m、16頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は西北西2m/sです。",
+              "pace": "推定ではスローペースとなる見込みが中心で、その確率は68%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "中京4R レース予報",
+              "top_place_horse": "7番セッシュウ",
+              "top_place_rate": 88,
+              "updated_at": "2026-08-30T11:10+09:00",
               "warning_count": 12
             }
           ]
