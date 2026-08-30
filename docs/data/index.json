@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T12:35:59+09:00",
-  "race_count": 263,
+  "generated_at": "2026-08-30T13:05:25+09:00",
+  "race_count": 264,
   "days": [
     {
       "date": "2026-08-30",
@@ -440,6 +440,34 @@
               "top_place_rate": 61,
               "updated_at": "2026-08-30T12:35+09:00",
               "warning_count": 13
+            },
+            {
+              "date": "2026-08-30",
+              "course": "札幌",
+              "course_slug": "sapporo",
+              "race_no": 7,
+              "label": "7R",
+              "path": "2026-08-30/sapporo/07R/",
+              "confidence_level": "LOW",
+              "confidence_score": 13,
+              "distance": 1000,
+              "field_size": 12,
+              "forecast_id": "forecast-2026083001020407-338ab50fc0c8e6a3f84b",
+              "going": "GOOD",
+              "magire_level": "HIGH",
+              "magire_score": 60.1,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "ダート1000m、12頭、馬場状態は稍重、天候は曇り、降水量は0.0mm/h、風は南南東5m/sです。",
+              "pace": "推定では速いペースとなる見込みが中心で、その確率は59%です。",
+              "stage": "FINAL",
+              "surface": "ダート",
+              "title": "札幌7R レース予報",
+              "top_place_horse": "8番ワイドデコラシオン",
+              "top_place_rate": 74,
+              "updated_at": "2026-08-30T13:05+09:00",
+              "warning_count": 11
             }
           ]
         }
