@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T15:55:52+09:00",
-  "race_count": 275,
+  "generated_at": "2026-08-30T16:10:25+09:00",
+  "race_count": 276,
   "days": [
     {
       "date": "2026-08-30",
@@ -433,6 +433,34 @@
               "top_place_horse": "3番ロデオドライブ",
               "top_place_rate": 86,
               "updated_at": "2026-08-30T15:30+09:00",
+              "warning_count": 11
+            },
+            {
+              "date": "2026-08-30",
+              "course": "新潟",
+              "course_slug": "niigata",
+              "race_no": 9,
+              "label": "9R",
+              "path": "2026-08-30/niigata/09R/",
+              "confidence_level": "LOW",
+              "confidence_score": 8,
+              "distance": 1000,
+              "field_size": 18,
+              "forecast_id": "forecast-2026083004030409-081dff024eaa41bfad0d",
+              "going": "GOOD",
+              "magire_level": "MEDIUM",
+              "magire_score": 57.7,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": false,
+              "overview": "芝1000m、18頭、馬場状態は稍重、天候は雨、降水量は7.0mm/h、風は南南西3m/sです。",
+              "pace": "推定では速いペースとなる見込みが中心で、その確率は58%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "新潟9R レース予報",
+              "top_place_horse": "1番カレンデュラ",
+              "top_place_rate": 78,
+              "updated_at": "2026-08-30T16:10+09:00",
               "warning_count": 11
             }
           ]
