@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 16,
+  "distance": 1600,
+  "field_size": 10,
+  "forecast_id": "forecast-2026083007030402-dd9f551bfb0c063edcfa",
+  "going": "FIRM",
+  "magire_level": "HIGH",
+  "magire_score": 66.4,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝1600m、10頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は西北西2m/sです。",
+  "pace": "推定ではスローペースとなる見込みが中心で、その確率は65%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "中京2R レース予報",
+  "top_place_horse": "1番サトノボルテクス",
+  "top_place_rate": 32,
+  "updated_at": "2026-08-30T10:10+09:00",
+  "warning_count": 12
+}
