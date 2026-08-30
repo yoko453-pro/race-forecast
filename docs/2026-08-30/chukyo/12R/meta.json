@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 16,
+  "distance": 1200,
+  "field_size": 14,
+  "forecast_id": "forecast-2026083007030412-7ee506de154e5259427d",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 58.7,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 53,
+  "odds_available": false,
+  "overview": "ダート1200m、14頭、馬場状態は稍重、天候は晴れ、降水量は0.0mm/h、風は西南西1m/sです。",
+  "pace": "推定では平均ペースとなる見込みが中心で、その確率は56%です。",
+  "stage": "FINAL",
+  "surface": "ダート",
+  "title": "中京12R レース予報",
+  "top_place_horse": "3番アーガイルショア",
+  "top_place_rate": 57,
+  "updated_at": "2026-08-30T18:00+09:00",
+  "warning_count": 11
+}
