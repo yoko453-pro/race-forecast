@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T17:15:24+09:00",
-  "race_count": 280,
+  "generated_at": "2026-08-30T17:30:58+09:00",
+  "race_count": 281,
   "days": [
     {
       "date": "2026-08-30",
@@ -288,6 +288,34 @@
               "top_place_rate": 77,
               "updated_at": "2026-08-30T17:00+09:00",
               "warning_count": 11
+            },
+            {
+              "date": "2026-08-30",
+              "course": "中京",
+              "course_slug": "chukyo",
+              "race_no": 11,
+              "label": "11R",
+              "path": "2026-08-30/chukyo/11R/",
+              "confidence_level": "LOW",
+              "confidence_score": 42,
+              "distance": 1400,
+              "field_size": 18,
+              "forecast_id": "forecast-2026083007030411-0892f1707247773862ab",
+              "going": "FIRM",
+              "magire_level": "HIGH",
+              "magire_score": 65.3,
+              "main_scenario": "前方勢が粘る流れ",
+              "main_scenario_prob": 53,
+              "odds_available": true,
+              "overview": "芝1400m、18頭、馬場状態は良、天候は晴れ、降水量は0.0mm/h、風は西1m/sです。",
+              "pace": "推定ではややスローペースとなる見込みが中心で、その確率は62%です。",
+              "stage": "FINAL",
+              "surface": "芝",
+              "title": "中京11R レース予報",
+              "top_place_horse": "18番エコロディアン",
+              "top_place_rate": 68,
+              "updated_at": "2026-08-30T17:30+09:00",
+              "warning_count": 8
             }
           ]
         },
