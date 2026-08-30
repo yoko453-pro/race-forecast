@@ -1,0 +1,22 @@
+{
+  "confidence_level": "LOW",
+  "confidence_score": 12,
+  "distance": 2000,
+  "field_size": 11,
+  "forecast_id": "forecast-2026083004030408-59337250eee21dd8d495",
+  "going": "GOOD",
+  "magire_level": "MEDIUM",
+  "magire_score": 45.3,
+  "main_scenario": "前方勢が粘る流れ",
+  "main_scenario_prob": 52,
+  "odds_available": false,
+  "overview": "芝2000m、11頭、馬場状態は稍重、天候は雨、降水量は3.0mm/h、風は西南西3m/sです。",
+  "pace": "推定ではスローペースとなる見込みが中心で、その確率は67%です。",
+  "stage": "FINAL",
+  "surface": "芝",
+  "title": "新潟8R レース予報",
+  "top_place_horse": "3番ロデオドライブ",
+  "top_place_rate": 86,
+  "updated_at": "2026-08-30T15:30+09:00",
+  "warning_count": 11
+}
