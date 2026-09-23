@@ -1,0 +1,14 @@
+{
+  "report_id": "2026092109040711_final_20260923T102952_8704c4ed",
+  "race_id": "2026092109040711",
+  "race_date": "2026-09-21",
+  "race_name": "神戸新聞杯",
+  "venue_name": "阪神",
+  "race_number": 11,
+  "stage": "final",
+  "stage_label": "最終版",
+  "snapshot_id": "f57a88263dfe4558a8c8f39051e0c1fc",
+  "as_of": "2026-09-21T15:35:23.665518+09:00",
+  "generated_at": "2026-09-23T10:29:52+09:00",
+  "sha256": "8179b902103b8f622abc69af9a3b8ff2709bdbadb6b0f9393de853b0295860fb"
+}
