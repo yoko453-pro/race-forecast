@@ -1,0 +1,14 @@
+{
+  "report_id": "2026112208050611_final_20261122T153108_647c32f9",
+  "race_id": "2026112208050611",
+  "race_date": "2026-11-22",
+  "race_name": "マイルチャンピオンシップ",
+  "venue_name": "京都",
+  "race_number": 11,
+  "stage": "final",
+  "stage_label": "最終版",
+  "snapshot_id": "cdcf647dd1bf4ac2bb0cb8b39bf7cced",
+  "as_of": "2026-11-22T15:30:22.734149+09:00",
+  "generated_at": "2026-11-22T15:31:08+09:00",
+  "sha256": "a6ac9faaf9eb3ee91a963157f4a1e64519063fa25d84bf7dc253c94a399a7d03"
+}
